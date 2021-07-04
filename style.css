@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2B2C30;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+}
+p {
+    font-size: 20px
+    ;
+    color: white;
+}
+.name {
+    color: orange;
+}
+.flexible-container {
+    display: flex;
+    margin-bottom: 80px;
+}
+.half-width {
+    width: 60%;
+    margin-top: 100px;
+    padding-left: 10%;
+}
+.top-banner {
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+}
+.second-banner {
+    background-image: url(images/bg-5.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.text-info {
+    margin-top: 320px;
+}
+.profile-img {
+    background-repeat: no-repeat;
+    margin-right: 100px;
+    margin-top: 170px;
+}
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    margin-top: 30px;
+    display:inline-block;
+    }
+    
+#img1 {
+    background-image: url(images/bg-8.png);
+}
+#img2 {
+    background-image: url(images/bg-2.png);
+}
+#img3 {
+    background-image: url(images/bg-9.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#text2 {
+    margin-right: 200px;
+}
+
