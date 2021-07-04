@@ -71,14 +71,16 @@ h3 {
 }
 .exp-name {
     text-align: center;
+    margin-top: 200px;
 }
 .exp-item {
     width: 50%;
     padding-left: 8%;
     box-shadow:5px 5px 5px 5px #2B2C30;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-left: 5%;
     margin-right: 2%;
+    margin-bottom: 5%;
     padding: 2% 2% 5% 2%;
     border-radius: 10px;
     text-align: center;
@@ -94,6 +96,11 @@ h3 {
 }
 #img3 {
     background-image: url(images/bg-9.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#img4 {
+    background-image: url(images/bg-6.png);
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -113,5 +120,17 @@ h3 {
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
+}
+hr {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
